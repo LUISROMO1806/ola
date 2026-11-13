@@ -1,0 +1,374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Api-PlataformaEscolar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|d:\\api-plataformaescolar\\api-plataformaescolar\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\actualizarperfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\actualizarperfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\aceptarcontrapropuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\aceptarcontrapropuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\contrapropuestacitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\contrapropuestacitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\models\\propuestacita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\models\\propuestacita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\horariocitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\horariocitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\solicitarcitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\solicitarcitadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\models\\plataformaescolarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\models\\plataformaescolarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\models\\horariodisponible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\models\\horariodisponible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\migrations\\202609270000029_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\migrations\\202609270000029_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\perfilusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\perfilusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\models\\encuestasatisfaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\models\\encuestasatisfaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\directoriopersonadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\directoriopersonadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|D:\\Api-PlataformaEscolar\\api-plataformaescolar\\dtos\\cambiarpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8059161E-534E-44E2-8D53-B0DD60F2D364}|Api-PlataformaEscolar\\Api-PlataformaEscolar.csproj|solutionrelative:api-plataformaescolar\\dtos\\cambiarpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AceptarContrapropuestaDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\AceptarContrapropuestaDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\AceptarContrapropuestaDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\AceptarContrapropuestaDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\AceptarContrapropuestaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T03:27:49.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContrapropuestaCitaDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\ContrapropuestaCitaDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\ContrapropuestaCitaDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\ContrapropuestaCitaDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\ContrapropuestaCitaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T02:02:56.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Controllers\\CitasController.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAACUCAAAAAAAAAAAowDsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T01:03:10.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HorarioCitaDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\HorarioCitaDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\HorarioCitaDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\HorarioCitaDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\HorarioCitaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T01:02:06.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SolicitarCitaDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\SolicitarCitaDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\SolicitarCitaDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\SolicitarCitaDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\SolicitarCitaDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T01:00:28.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DirectorioPersonaDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\DirectorioPersonaDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\DirectorioPersonaDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\DirectorioPersonaDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\DirectorioPersonaDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T22:25:06.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Controllers\\AgendaController.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Controllers\\AgendaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T22:09:48.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T02:24:54.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PerfilController.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Controllers\\PerfilController.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Controllers\\PerfilController.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Controllers\\PerfilController.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Controllers\\PerfilController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAUwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:52:32.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CambiarPasswordDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\CambiarPasswordDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\CambiarPasswordDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\CambiarPasswordDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\CambiarPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:46:11.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActualizarPerfilDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\ActualizarPerfilDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\ActualizarPerfilDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\ActualizarPerfilDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\ActualizarPerfilDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:45:57.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PerfilUsuarioDTO.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\PerfilUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\DTOs\\PerfilUsuarioDTO.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\DTOs\\PerfilUsuarioDTO.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\DTOs\\PerfilUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T01:45:27.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "202609270000029_Inicial.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Migrations\\202609270000029_Inicial.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Migrations\\202609270000029_Inicial.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Migrations\\202609270000029_Inicial.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Migrations\\202609270000029_Inicial.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T00:00:17.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T23:41:15.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Web.config",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Web.config",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Web.config",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-26T23:33:34.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlataformaEscolarContext.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\PlataformaEscolarContext.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Models\\PlataformaEscolarContext.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\PlataformaEscolarContext.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Models\\PlataformaEscolarContext.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwEcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T23:16:56.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EncuestaSatisfaccion.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\EncuestaSatisfaccion.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Models\\EncuestaSatisfaccion.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\EncuestaSatisfaccion.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Models\\EncuestaSatisfaccion.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T23:11:24.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropuestaCita.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\PropuestaCita.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Models\\PropuestaCita.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\PropuestaCita.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Models\\PropuestaCita.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T23:10:12.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Models\\Cita.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\Cita.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Models\\Cita.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA2wDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T23:08:04.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HorarioDisponible.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\HorarioDisponible.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Models\\HorarioDisponible.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\HorarioDisponible.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Models\\HorarioDisponible.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T23:07:39.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Models\\Usuario.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\Usuario.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Models\\Usuario.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T22:55:09.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Api-PlataformaEscolar\\Models\\Rol.cs",
+              "ToolTip": "D:\\Api-PlataformaEscolar\\Api-PlataformaEscolar\\Models\\Rol.cs",
+              "RelativeToolTip": "Api-PlataformaEscolar\\Models\\Rol.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T22:54:39.699Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

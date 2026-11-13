@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Homeworking</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/perfil.css">
+</head>
+
+<body>
+
+    <header class="barra-superior">
+
+        <div class="logo">
+            Homeworking
+        </div>
+
+        <div class="usuario-menu">
+            <span id="nombreBarra">Cargando...</span>
+        </div>
+
+    </header>
+
+    <main class="contenedor">
+
+        <section class="encabezado">
+
+            <div>
+                <h1>Mi perfil</h1>
+                <p>Consulta y administra tu información personal.</p>
+            </div>
+
+        </section>
+
+        <section class="perfil-card">
+
+            <div class="foto-seccion">
+
+                <div class="foto-container">
+
+                    <img
+                        id="fotoPerfil"
+                        class="foto-perfil"
+                        src="https://via.placeholder.com/150"
+                        alt="Foto de perfil"
+                    >
+
+                </div>
+
+                <h2 id="nombrePerfil">Cargando...</h2>
+
+                <span class="rol" id="rolPerfil">
+                    Cargando...
+                </span>
+
+            </div>
+
+            <div class="informacion">
+
+                <div class="seccion">
+
+                    <h3>Información personal</h3>
+
+                    <div class="datos-grid">
+
+                        <div class="dato">
+
+                            <label>Nombre completo</label>
+
+                            <span id="nombreCompleto">
+                                Cargando...
+                            </span>
+
+                        </div>
+
+                        <div class="dato">
+
+                            <label>Correo electrónico</label>
+
+                            <span id="correo">
+                                Cargando...
+                            </span>
+
+                        </div>
+
+                        <div class="dato">
+
+                            <label>Teléfono</label>
+
+                            <span id="telefono">
+                                Cargando...
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="seccion">
+
+                    <h3>Información académica</h3>
+
+                    <div class="datos-grid">
+
+                        <div class="dato">
+
+                            <label>Matrícula</label>
+
+                            <span id="matricula">
+                                Cargando...
+                            </span>
+
+                        </div>
+
+                        <div class="dato">
+
+                            <label>Carrera</label>
+
+                            <span id="carrera">
+                                Cargando...
+                            </span>
+
+                        </div>
+
+                        <div class="dato">
+
+                            <label>Grupo</label>
+
+                            <span id="grupo">
+                                Cargando...
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="acciones">
+
+                    <button
+                        class="btn btn-principal"
+                        onclick="abrirEditarPerfil()">
+                        Editar perfil
+
+                    </button>
+
+                    <button
+                        class="btn btn-secundario"
+                        onclick="abrirCambiarPassword()">
+                        Cambiar contraseña
+
+                    </button>
+
+                    <button
+                        class="btn btn-salir"
+                        onclick="cerrarSesion()">
+                        Cerrar sesión
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <div
+        id="modalEditar"
+        class="modal">
+
+        <div class="modal-contenido">
+
+            <div class="modal-header">
+
+                <h2>Editar perfil</h2>
+
+                <button
+                    class="cerrar"
+                    onclick="cerrarModal('modalEditar')">
+                        X
+
+                </button>
+
+            </div>
+
+            <div class="formulario">
+
+                <label>Nombre completo</label>
+
+                <input
+                    type="text"
+                    id="editarNombre"
+                    placeholder="Nombre completo"
+                >
+
+                <label>Teléfono</label>
+
+                <input
+                    type="text"
+                    id="editarTelefono"
+                    placeholder="Teléfono"
+                >
+
+                <label for="editarFoto">Foto de perfil</label>
+                <input type="file" id="editarFoto" accept="image/*">
+
+                <div class="preview-foto">
+                    <img id="previewFoto" src="" alt="Vista previa">
+                </div>
+
+                <button
+                    class="btn btn-principal"
+                    onclick="guardarPerfil()">
+                    Guardar cambios
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div
+        id="modalPassword"
+        class="modal">
+
+        <div class="modal-contenido">
+
+            <div class="modal-header">
+
+                <h2>Cambiar contraseña</h2>
+
+                <button
+                    class="cerrar"
+                    onclick="cerrarModal('modalPassword')">
+                        X
+
+                </button>
+
+            </div>
+
+            <div class="formulario">
+
+                <label>Contraseña actual</label>
+
+                <input
+                    type="password"
+                    id="passwordActual"
+                    placeholder="Contraseña actual"
+                >
+
+                <label>Nueva contraseña</label>
+
+                <input
+                    type="password"
+                    id="nuevaPassword"
+                    placeholder="Nueva contraseña"
+                >
+
+                <button
+                    class="btn btn-principal"
+                    onclick="guardarPassword()">
+                    Cambiar contraseña
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/perfil.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chat</title>
+
+        <!-- ESTILOS -->
+        <link rel="stylesheet" href="css/chat.css">
+    </head>
+
+    <body>
+        <div class="app">
+            <!-- LISTA DE CONVERSACIONES -->
+            <aside class="lista">
+                <header>Chat</header>
+                <div class="buscar">
+                <input id="buscar" type="search" placeholder="Buscar por nombre" aria-label="Buscar usuarios por nombre">
+                </div>
+                <div class="conversaciones" id="conversaciones"></div>
+            </aside>
+
+            <!-- CONVERSACION ACTIVA -->
+            <main class="panel">
+                <div class="chat">
+                    <header>
+                        <div class="avatar" id="hAvatar"></div>
+                        <div>
+                            <div class="nombre" id="hNombre"></div>
+                            <div class="estado" id="hEstado"></div>
+                        </div>
+                        <!-- BOTONES DEL PANEL LATERAL -->
+                        <div class="header-acciones">
+                            <button id="btnBuscar" title="Buscar en la conversación" aria-label="Buscar en la conversación">🔍</button>
+                            <button id="btnArchivos" title="Archivos compartidos" aria-label="Archivos compartidos">📁</button>
+                            <button id="btnFijados" title="Mensajes fijados" aria-label="Mensajes fijados">📌</button>
+                            <button id="btnGuardados" title="Mensajes guardados" aria-label="Mensajes guardados">⭐</button>
+                        </div>
+                    </header>
+
+                    <!-- AVISO DE FIJADOS -->
+                    <button class="barra-fijados" id="barraFijados" hidden></button>
+
+                    <div class="mensajes" id="mensajes" aria-live="polite"></div>
+
+                    <!-- CAJA DE ESCRITURA -->
+                    <div class="caja">
+                        <div class="contexto" id="contexto" hidden></div>
+                        <div class="adjuntos" id="adjuntos"></div>
+                        <div class="emojis" id="emojis"></div>
+                        <div class="editor">
+                            <button id="btnEmoji" title="Emoji" aria-label="Insertar emoji">😊</button>
+                            <button id="btnAdjuntar" title="Adjuntar archivo" aria-label="Adjuntar archivo">📎</button>
+                            <input type="file" id="archivo" multiple hidden>
+                            <textarea id="texto" rows="1" placeholder="Escribe un mensaje"></textarea>
+                            <button class="enviar" id="btnEnviar" disabled>Enviar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PANEL LATERAL -->
+                <aside class="lateral" id="lateral" hidden>
+                    <div class="lateral-cab">
+                        <div class="tabs">
+                            <button data-tab="buscar">Buscar</button>
+                            <button data-tab="archivos">Archivos</button>
+                            <button data-tab="fijados">Fijados</button>
+                            <button data-tab="guardados">Guardados</button>
+                        </div>
+                        <button id="cerrarLateral" aria-label="Cerrar panel">✕</button>
+                    </div>
+                    <div class="lateral-cuerpo" id="lateralCuerpo"></div>
+                </aside>
+            </main>
+
+        </div>
+        <!-- SCRIPTS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/signalr.js/2.4.3/jquery.signalR.min.js"></script>
+        <script src="js/config_chat.js"></script>
+        <script src="js/hub_chat.js"></script>
+        <script src="js/api_chat.js"></script>
+        <script src="js/chat.js"></script>
+        <script src="js/visor.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#F57C00" />
+  <title>Homeworking | Iniciar sesión</title>
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+  <div class="auth">
+
+    <aside class="auth-hero" aria-hidden="true">
+      <div class="brand">
+        <span class="brand-logo">H</span>
+        <span class="brand-name">Homeworking</span>
+      </div>
+      <h2>Aprende y colabora desde cualquier lugar.</h2>
+      <p>Accede con tu correo institucional.</p>
+    </aside>
+
+    <main class="auth-main">
+      <section class="card" aria-labelledby="titulo">
+        <div class="brand">
+          <span class="brand-logo" aria-hidden="true">H</span>
+          <span class="brand-name">Homeworking</span>
+        </div>
+
+        <!-- Vista 1: inicio de sesión -->
+        <div id="vistaLogin">
+          <h1 id="titulo">Iniciar sesión</h1>
+          <p class="subtitle">Usa tu correo institucional y tu contraseña.</p>
+
+          <form id="loginForm" novalidate autocomplete="on">
+            <div class="field">
+              <label for="correo">Correo institucional</label>
+              <input type="email" id="correo" name="correo" autocomplete="username"
+                     inputmode="email" autocapitalize="none" spellcheck="false"
+                     placeholder="usuario@uptecamac.edu.mx" maxlength="150"
+                     aria-describedby="correoAyuda correoError" />
+              <small class="hint" id="correoAyuda"></small>
+              <button type="button" id="btnSugerencia" class="suggestion" hidden></button>
+              <small class="field-error" id="correoError" hidden></small>
+            </div>
+
+            <div class="field">
+              <label for="password">Contraseña</label>
+              <div class="password-wrap ojo">
+                <input type="password" id="password" name="password"
+                       autocomplete="current-password" maxlength="128"
+                       aria-describedby="passwordError" />
+                <button type="button" class="toggle icon" data-ojo="password"></button>
+              </div>
+              <small class="field-error" id="passwordError" hidden></small>
+              <a href="recuperar.html" id="enlaceRecuperar" class="link-recuperar">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <label class="check">
+              <input type="checkbox" id="mantenerSesion" name="mantenerSesion" />
+              <span>Mantener sesión iniciada
+                <small>Se conserva 30 días en este dispositivo. Úsala solo en equipos personales.</small>
+              </span>
+            </label>
+
+            <button type="submit" id="btnLogin" class="btn-primary">
+              <span class="spinner" aria-hidden="true" hidden></span>
+              <span class="texto">Iniciar sesión</span>
+            </button>
+            <p id="estadoCarga" class="status" role="status" aria-live="polite" hidden></p>
+          </form>
+
+          <!-- Aviso de datos incorrectos o falla técnica: debajo del formulario, sin pop-up -->
+          <div id="alerta" class="alert" role="alert" aria-live="assertive" hidden>
+            <strong class="alerta-titulo"></strong>
+            <span class="alerta-detalle"></span>
+          </div>
+
+          <!-- Se muestra tras dos intentos fallidos consecutivos -->
+          <div id="cajaRecuperacion" class="recovery-box" role="status" hidden>
+            <strong>¿Tienes problemas para entrar?</strong>
+            <span>Si no recuerdas tu contraseña, puedes restablecerla tú mismo en un par de minutos.</span>
+            <a id="enlaceCajaRecuperacion" class="btn-secondary" href="recuperar.html">Restablecer mi contraseña</a>
+          </div>
+
+          <p class="help">Las cuentas las crea el personal administrativo.</p>
+        </div>
+
+        <!-- Vista 2: verificación de identidad (solo si el sistema la requiere) -->
+        <div id="vistaVerificacion" hidden>
+          <h1>Verifica tu identidad</h1>
+          <p class="subtitle" id="verifInstrucciones"></p>
+
+          <ol class="steps">
+            <li>Abre tu correo institucional.</li>
+            <li>Copia el código de 6 dígitos.</li>
+            <li>Escríbelo aquí y pulsa Verificar.</li>
+          </ol>
+
+          <form id="verifForm" novalidate>
+            <div class="field">
+              <label for="codigo">Código de verificación</label>
+              <input type="text" id="codigo" inputmode="numeric" autocomplete="one-time-code"
+                     maxlength="6" placeholder="000000" aria-describedby="codigoError" />
+              <small class="field-error" id="codigoError" hidden></small>
+            </div>
+
+            <button type="submit" id="btnVerificar" class="btn-primary">
+              <span class="spinner" aria-hidden="true" hidden></span>
+              <span class="texto">Verificar</span>
+            </button>
+            <p id="estadoCargaVerif" class="status" role="status" aria-live="polite" hidden></p>
+          </form>
+
+          <div id="alertaVerif" class="alert" role="alert" aria-live="assertive" hidden>
+            <strong class="alerta-titulo"></strong>
+            <span class="alerta-detalle"></span>
+          </div>
+
+          <p class="help"><button type="button" id="btnVolver" class="btn-ghost">Volver a iniciar sesión</button></p>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+  <script type="module" src="./js/login.js"></script>
+</body>
+</html>

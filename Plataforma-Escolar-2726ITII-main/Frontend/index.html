@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HomeWorking | Espacio de trabajo</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header-left">
+
+            <button
+                type="button"
+                class="icon-btn"
+                id="btnAtras"
+                title="Regresar"
+                aria-label="Regresar"
+            >
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <button
+                type="button"
+                class="icon-btn"
+                id="btnAdelante"
+                title="Avanzar"
+                aria-label="Avanzar"
+            >
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+        <div class="search-container">
+
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+            <input
+                type="search"
+                id="busquedaGlobal"
+                class="search-input"
+                placeholder="Buscar módulos..."
+                autocomplete="off"
+            >
+
+            <div
+                id="resultadosBusqueda"
+                class="search-results"
+                hidden
+            ></div>
+
+        </div>
+
+        <div class="profile-container">
+
+            <button
+                type="button"
+                class="icon-btn"
+                id="btnOpciones"
+                title="Opciones"
+                aria-label="Opciones"
+            >
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+
+            <a
+                href="perfil.html"
+                class="profile-link"
+                title="Ver perfil"
+                aria-label="Ver perfil de usuario"
+            >
+                <div class="avatar" id="avatarUsuario">
+                    U
+                </div>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <div class="workspace">
+
+        <nav class="sidebar" aria-label="Navegación principal">
+
+            <div class="sidebar-menu">
+
+                <button
+                    type="button"
+                    onclick="switchView('activity')"
+                    id="nav-activity"
+                    class="nav-item"
+                    title="Actividad"
+                >
+                    <span class="active-indicator"></span>
+
+                    <span class="nav-icon-wrapper">
+                        <i class="fa-regular fa-bell"></i>
+                    </span>
+
+                    <span class="nav-label">Actividad</span>
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="switchView('chat')"
+                    id="nav-chat"
+                    class="nav-item"
+                    title="Chat"
+                >
+                    <span class="active-indicator"></span>
+
+                    <span class="nav-icon-wrapper">
+                        <i class="fa-regular fa-comment"></i>
+                    </span>
+
+                    <span class="nav-label">Chat</span>
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="switchView('teams')"
+                    id="nav-teams"
+                    class="nav-item active"
+                    title="Equipos"
+                >
+                    <span class="active-indicator"></span>
+
+                    <span class="nav-icon-wrapper">
+                        <i class="fa-solid fa-user-group"></i>
+                    </span>
+
+                    <span class="nav-label">Equipos</span>
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="switchView('tasks')"
+                    id="nav-tasks"
+                    class="nav-item"
+                    title="Tareas"
+                >
+                    <span class="active-indicator"></span>
+
+                    <span class="nav-icon-wrapper">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </span>
+
+                    <span class="nav-label">Tareas</span>
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="switchView('calendar')"
+                    id="nav-calendar"
+                    class="nav-item"
+                    title="Agenda de citas"
+                >
+                    <span class="active-indicator"></span>
+
+                    <span class="nav-icon-wrapper">
+                        <i class="fa-regular fa-calendar"></i>
+                    </span>
+
+                    <span class="nav-label">Agenda de citas</span>
+                </button>
+
+
+                <button
+                    type="button"
+                    onclick="switchView('calls')"
+                    id="nav-calls"
+                    class="nav-item"
+                    title="Llamadas"
+                >
+                    <span class="active-indicator"></span>
+
+                    <span class="nav-icon-wrapper">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+
+                    <span class="nav-label">Llamadas</span>
+                </button>
+
+            </div>
+
+
+            <div class="sidebar-bottom">
+
+                <button
+                    type="button"
+                    class="nav-item"
+                    id="nav-settings"
+                    onclick="switchView('settings')"
+                    title="Configuración"
+                >
+                    <span class="active-indicator"></span>
+
+                    <span class="nav-icon-wrapper">
+                        <i class="fa-solid fa-gear"></i>
+                    </span>
+
+                    <span class="nav-label">Ajustes</span>
+                </button>
+
+            </div>
+
+        </nav>
+
+
+        <main class="main-content">
+
+
+            <section
+                id="view-activity"
+                class="view-panel"
+                hidden
+            >
+
+                <div class="teams-header">
+
+                    <h1 class="page-title">
+                        Actividad
+                    </h1>
+
+                </div>
+
+                <div class="feed-container">
+
+                    <article class="card">
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+
+                        <div class="card-content">
+
+                            <h2 class="empty-title">
+                                Sistema de notificaciones
+                            </h2>
+
+                            <p class="empty-desc">
+                                Te has unido al espacio de trabajo de HomeWorking.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!--Chat-->
+            <section
+                    id="view-chat"
+                    class="view-panel module-panel"
+                    hidden
+                >
+                    <iframe
+                        id="iframeChat"
+                        class="agenda-frame"
+                        src="about:blank"
+                        title="Módulo de Chat de HomeWorking"
+                        loading="lazy"
+                    ></iframe>
+                </section>
+
+
+            <section
+                id="view-teams"
+                class="view-panel"
+            >
+
+                <div class="teams-header">
+
+                    <h1 class="page-title">
+                        Equipos
+                    </h1>
+
+                    <button
+                        type="button"
+                        class="btn-primary-outline"
+                        id="btnCrearEquipo"
+                    >
+                        <i class="fa-solid fa-user-plus"></i>
+
+                        <span>
+                            Unirse a un equipo o crear uno
+                        </span>
+                    </button>
+
+                </div>
+
+                <div class="empty-state">
+
+                    <i class="fa-solid fa-user-group empty-icon"></i>
+
+                    <h2 class="empty-title">
+                        No hay clases ni equipos agregados
+                    </h2>
+
+                    <p class="empty-desc">
+                        Actualmente no estás inscrito en ningún equipo.
+                        Utiliza el botón superior para unirte o crear uno nuevo.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                id="view-tasks"
+                class="view-panel"
+                hidden
+            >
+
+                <div class="tabs-bar">
+
+                    <div class="tabs-list">
+
+                        <button
+                            type="button"
+                            class="tab-btn active"
+                        >
+                            Próximamente
+                        </button>
+
+                        <button
+                            type="button"
+                            class="tab-btn"
+                        >
+                            Listo para calificación
+                        </button>
+
+                        <button
+                            type="button"
+                            class="tab-btn"
+                        >
+                            Vencida
+                        </button>
+
+                        <button
+                            type="button"
+                            class="tab-btn"
+                        >
+                            Devuelto
+                        </button>
+
+                        <button
+                            type="button"
+                            class="tab-btn"
+                        >
+                            Borradores
+                        </button>
+
+                    </div>
+
+                    <button
+                        type="button"
+                        class="icon-btn tabs-filter"
+                        title="Filtrar tareas"
+                    >
+                        <i class="fa-solid fa-filter"></i>
+                    </button>
+
+                </div>
+
+
+                <div class="tasks-content">
+
+                    <div class="empty-state">
+
+                        <i class="fa-solid fa-circle-check empty-icon"></i>
+
+                        <h2 class="empty-title">
+                            ¡Todo al día!
+                        </h2>
+
+                        <p class="empty-desc">
+                            No tienes tareas pendientes asignadas en este momento.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <footer class="tasks-footer">
+
+                    <button
+                        type="button"
+                        class="btn-primary"
+                        id="btnCrearTarea"
+                    >
+                        Crear
+                    </button>
+
+                    <button
+                        type="button"
+                        class="icon-btn footer-info"
+                        title="Información"
+                    >
+                        <i class="fa-solid fa-circle-info"></i>
+                    </button>
+
+                </footer>
+
+            </section>
+
+
+            <section
+                id="view-calendar"
+                class="view-panel calendar-panel"
+                hidden
+            >
+
+                <iframe
+                    id="iframeAgenda"
+                    class="agenda-frame"
+                    src="about:blank"
+                    title="Agenda de citas de HomeWorking"
+                    loading="lazy"
+                ></iframe>
+
+            </section>
+
+
+            <section
+                id="view-calls"
+                class="view-panel"
+                hidden
+            >
+
+                <div class="teams-header">
+
+                    <h1 class="page-title">
+                        Llamadas
+                    </h1>
+
+                </div>
+
+                <div class="empty-state">
+
+                    <i class="fa-solid fa-phone empty-icon"></i>
+
+                    <h2 class="empty-title">
+                        Módulo de llamadas
+                    </h2>
+
+                    <p class="empty-desc">
+                        Aquí se integrarán las funciones de llamadas
+                        y comunicación en tiempo real.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                id="view-settings"
+                class="view-panel"
+                hidden
+            >
+
+                <div class="teams-header">
+
+                    <h1 class="page-title">
+                        Configuración
+                    </h1>
+
+                </div>
+
+                <div class="empty-state">
+
+                    <i class="fa-solid fa-gear empty-icon"></i>
+
+                    <h2 class="empty-title">
+                        Configuración de HomeWorking
+                    </h2>
+
+                    <p class="empty-desc">
+                        Este espacio está preparado para agregar
+                        las preferencias de la plataforma.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+        </main>
+
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
