@@ -290,3 +290,8 @@ mark { background: #ffe08a; color: inherit; border-radius: 2px; }
 
 /* AUDIO */
 .burbuja audio { width: 260px; max-width: 100%; display: block; margin-top: 4px; }
+
+/* Sin conversación abierta: ocultar lo que solo tiene sentido dentro de un chat */
+.chat.sin-chat > header,
+.chat.sin-chat > .barra-fijados,
+.chat.sin-chat > .caja { display: none !important; }

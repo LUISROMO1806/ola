@@ -225,9 +225,17 @@ function ajustarAltura() {
   caja.style.height = Math.min(caja.scrollHeight, 120) + "px";
 }
 
+//Muestra u oculta lo que solo tiene sentido dentro de un chat
+function actualizarPanelSinChat(){
+  const sinChat = !usuarioActivo;
+  document.querySelector(".chat").classList.toggle("sin-chat", sinChat);
+  if (sinChat) cerrarLateral();
+}
+
 // ABRIR CONVERSACION
 async function abrirChat(usuarioId) {
   usuarioActivo = usuarioId;
+  actualizarPanelSinChat();
   cancelarContexto();
   cerrarLateral();
   filtros = { texto: "", desde: "", hasta: "", nombre: "", tipo: "todos" };
@@ -925,6 +933,7 @@ $("adjuntos").addEventListener("click", e => {
 
 // INICIO
 async function iniciar() {
+  actualizarPanelSinChat();
   try {
     conversaciones = await Api.obtenerConversaciones();
   } catch (error) {
